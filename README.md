@@ -4,10 +4,10 @@ This library automatically generates a clean and organized file structure for an
 
 ## Installation
 
-To install the library, run the following command in your terminal:
+To install the library globally, run the following command in your terminal:
 
 ```bash
-npm install backend-gen-express
+npm install -g backend-gen-express
 ```
 
 ## Usage
