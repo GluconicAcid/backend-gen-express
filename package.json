@@ -1,5 +1,5 @@
 {
-  "name": "create-backend-structure",
+  "name": "backend-gen-express",
   "version": "1.0.0",
   "main": "index.js",
   "bin": {
@@ -7,13 +7,14 @@
   },
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "node ./index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "backend-gen-express": "^1.0.0",
     "chalk": "^5.4.1",
     "commander": "^13.1.0",
     "inquirer": "^12.6.0"
